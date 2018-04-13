@@ -5,7 +5,11 @@ This is a software I made for a research group on psychology at my university, t
 To run execute the file "main.py": you need to have Python 2.7 installed and a version of Pyglet (just do "pip install pyglet" in the command line to get it).
 Or if you don't have Python run the file "main.exe": it is a compiled version made with pyinstall.
 
-Note: the code and game concept is mine, but all the scientific componente and idea is not (ps: and the narrator sounds), so if you need to use this exactly as it is and all the scientific part contact the researchers: Ana Paula Soares asoares@psi.uminho.pt (University of Minho). When it comes to the codes and sprits, if you want to run them or adapt anything, I don't care about licenses or copyright, use everything freely, I believe in a free world.
+##Note:
+The code and game concept is mine, but all the scientific componente and idea is not (ps: and the narrator sounds), so if you need to use this exactly as it is and all the scientific part contact the researchers: Ana Paula Soares asoares@psi.uminho.pt (University of Minho). When it comes to the codes and sprits, if you want to run them or adapt anything, I don't care about licenses or copyright, use everything freely, I believe in a free world.
+
+##How to use:
+Just follow the instructions on screen: the first console scr.een asks for user data and game mode (only the 1st fully works), after that it launchs in fullscreen an animated version with a narrator (masculine or feminine depending on the user gender): just follow the instructions. After it is done the user data (like time between answears or key press's, wrong answears, etc.) is saved in the "Saves" folder. The questions that appear on screen (the seeds sequences) are in the files "phase1_sequences.txt" and "phase2_sequences.txt", if you edit them it changes the questions during the game (each number corresponds to a different gem/seed color).
 
 ##Contacts:
 My Homepage: [www.paulojorgepm.net](http://www.paulojorgepm.net)
