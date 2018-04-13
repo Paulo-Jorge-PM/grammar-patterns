@@ -1,0 +1,9 @@
+ESC: exit
+Run main.py (with Python 2.7 installed, or run main.exe if it was built form the source)
+
+How to convert to an executable standalone:
+-Install Pyinstaller running from command line: pip install pyinstaller
+-Navigate to main directory and run: pyinstaller.exe --onefile main.py
+(--onefile creats a single file; with the flag --windowed disables console window when running but we need it for the data input at start; main.py is the main file of the program, the starting point)
+-Copy the executable from dist folder and paste it in the main folder, so it has acess to the resources, images, sounds, etc
+
