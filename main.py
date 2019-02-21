@@ -1502,6 +1502,7 @@ if __name__ == '__main__':
     print(u"-Programado com: Python 2.7.12 + Pyglet 1.2.4 (é necessário suporte gráfico para OpenGL) | Licença do código: GNU GPL-3 | Imagens e som com créditos próprios, não são da minha autoria.")
     print(u"-Testado apenas em ambiente Windows (10) com monitores de resolução 1366px-768px, 1600px-900px e 1920px-1080px - baixas resoluções podem desconfigurar. Deve funcionar em ambiente Linux (no máximo com pequenos ajustes no código) Linux FTW BTW.")
     print(u"-Autoras do projeto/programado para: Ana Paula Soares (asoares@psi.uminho.pt) e Montserrat Comesaña - Escola de Psicologia, Universidade do Minho.")
+    print(u"-O programa tem 2 fases: primeiro memorização de sequências; 2ª: questões. Pode editar ambos alterando as linhas nos ficheiros phase1_sequences.txt e phase2_sequences.txt")
     
     print(u"\r\n\r\nWelcome!\r\n->Preencha os seguintes dados referentes ao sujeito em teste antes de iniciar o programa.\r\n->Use a tecla ENTER para confirmar cada introdução\r\n")
     
@@ -1535,7 +1536,7 @@ if __name__ == '__main__':
     
     n= ""
     while n not in ["1", "2"]:
-        n = raw_input("Modo do programa: introduzir a tecla 1 para modo default (tempo fixo) ou tecla 2 para modo interativo com o rato\r\n->").decode(sys.stdin.encoding)
+        n = raw_input("Modo do programa: introduzir a tecla 1 para modo default (tempo fixo) ou tecla 2 para modo interativo com o rato (note: interactive mode abandoned, only works until phase 1)\r\n->").decode(sys.stdin.encoding)
     if n == "2":
         INTERACTION = True
         LOG += "Mode: interactive"
@@ -1546,7 +1547,7 @@ if __name__ == '__main__':
     WAIT_TIME = ""
     
     while is_number(WAIT_TIME) == False:
-        WAIT_TIME = raw_input("Seconds to wait before rain starts (only accepts numbers, for floats use point, not comma): ")
+        WAIT_TIME = raw_input("Seconds to wait before rain starts (only accepts numbers, for floats use point, not comma) (note: default: 3; higher values = higher waiting time bettween sequences): ")
     
     LOG += "\r\n"
     LOG += u"Wait time: " + WAIT_TIME
