@@ -1,4 +1,4 @@
-# Artificial Grammar Learning Tool
+# Grammar Learning - Test tool  
 
 ![screenshot](http://www.paulojorgepm.net/static/images/print_grammar_pattern.png)
 
