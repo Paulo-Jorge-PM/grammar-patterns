@@ -1,0 +1,8 @@
+Date: 2021-10-24 18:45:35.173013
+Nome: Paulo Martins
+Idade: 34
+Sex: m
+Mode: fixed
+Wait time: 2
+Screen width: 1920
+Screen height: 1080
