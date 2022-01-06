@@ -1,4 +1,8 @@
-# Grammar Learning - Test tool  
+# Grammar Patterns - Software R&D  
+
+Vídeo preview: https://youtu.be/FeQ5_zvD_fM
+
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/FeQ5_zvD_fM/0.jpg)](http://www.youtube.com/watch?v=FeQ5_zvD_fM "Grammar Patterns")
 
 ![alt text](print_grammar_pattern.png)
 
