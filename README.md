@@ -4,8 +4,6 @@ Vídeo preview: https://youtu.be/FeQ5_zvD_fM
 
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/FeQ5_zvD_fM/0.jpg)](http://www.youtube.com/watch?v=FeQ5_zvD_fM "Grammar Patterns")
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/FeQ5_zvD_fM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 ![alt text](print_grammar_pattern.png)
 
 This software was created in the context of a research project. It is a memorization game, with voice instructions and keyboard interaction, used to gather scientific data regarding language patterns recognition. This project was created for a research group on the Psychology School at the University of Minho (coord. Ana Paula Soares), for studying grammar patterns learning skills in children. An article was published in a scientific journal with some results: “Do children with Specific Language Impairment (SLI) present implicit learning (IL) deficits? Evidence from an Artificial Grammar Learning (AGL) paradigm”  [http://dx.doi.org/10.1186/s12913-018-3444-8]( http://dx.doi.org/10.1186/s12913-018-3444-8).
